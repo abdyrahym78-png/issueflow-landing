@@ -45,12 +45,12 @@
             <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-300">
                 <a href="#comparison" class="hover:text-white transition">Performance</a>
                 <a href="#features" class="hover:text-white transition">Features</a>
+                <a href="#pricing" class="hover:text-white transition">Pricing</a>
                 <a href="#security" class="hover:text-white transition">Security</a>
-                <a href="#early-access" class="hover:text-white transition">Early Access</a>
             </nav>
             <div class="flex items-center space-x-4">
-                <a href="#early-access" class="hidden sm:inline-flex items-center justify-center px-4 py-2 rounded-lg bg-brand-600 hover:bg-brand-500 text-white text-sm font-semibold transition shadow-lg shadow-brand-600/30">
-                    Get Early Access
+                <a href="https://whop.com/checkout/plan_qS0sInHzNlwyK" target="_blank" class="hidden sm:inline-flex items-center justify-center px-4 py-2 rounded-lg bg-brand-600 hover:bg-brand-500 text-white text-sm font-semibold transition shadow-lg shadow-brand-600/30">
+                    Get Access ($29)
                 </a>
             </div>
         </div>
@@ -72,21 +72,16 @@
                 Stop waiting for browser tabs to load. IssueFlow Desktop brings lightning-fast offline-first issue tracking right to your desktop with native Vim navigation.
             </p>
             
-            <!-- Early Access Form (Formspree / Serverless Endpoint) -->
-            <div class="mt-10 max-w-xl mx-auto">
-                <form action="https://formspree.io/f/your_form_id" method="POST" class="flex flex-col sm:flex-row items-center gap-3 p-2 rounded-2xl bg-dark-800 border border-gray-700 shadow-2xl">
-                    <div class="relative w-full">
-                        <span class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-gray-500">
-                            <i class="fa-regular fa-envelope"></i>
-                        </span>
-                        <input type="email" name="email" required placeholder="Enter your work email..." class="w-full pl-11 pr-4 py-3 rounded-xl bg-dark-900 border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:border-brand-500 text-sm">
-                    </div>
-                    <button type="submit" class="w-full sm:w-auto px-6 py-3 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-semibold text-sm transition shadow-lg shadow-brand-600/30 whitespace-nowrap">
-                        Get Early Access
-                    </button>
-                </form>
-                <p class="mt-3 text-xs text-gray-500 font-mono">🔒 Zero spam. Strict secret hygiene. Unsubscribe anytime.</p>
+            <!-- CTA Buttons -->
+            <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="https://whop.com/checkout/plan_qS0sInHzNlwyK" target="_blank" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-semibold text-base transition shadow-xl shadow-brand-600/30">
+                    Get IssueFlow Landing Kit ($29) <i class="fa-solid fa-arrow-right ml-2"></i>
+                </a>
+                <a href="https://whop.com/checkout/plan_xJFKTuXJmsdlP" target="_blank" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-dark-800 hover:bg-dark-700 text-white font-semibold text-base border border-gray-700 transition">
+                    Get IssueFlow CLI ($29)
+                </a>
             </div>
+            <p class="mt-3 text-xs text-gray-500 font-mono">🔒 Instant digital download via Whop. Secure checkout.</p>
 
             <!-- Terminal Mockup -->
             <div class="mt-16 relative max-w-4xl mx-auto rounded-2xl border border-gray-800 bg-dark-800/95 shadow-2xl overflow-hidden text-left font-mono text-xs">
@@ -114,57 +109,68 @@
         </div>
     </section>
 
-    <!-- Comparison Section -->
-    <section id="comparison" class="py-24 bg-dark-800/40 border-t border-gray-800">
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-24 bg-dark-800/40 border-t border-gray-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto">
-                <h2 class="text-3xl sm:text-4xl font-bold text-white">Unmatched speed vs traditional web apps</h2>
-                <p class="mt-4 text-gray-400">See why power developers are ditching heavy web-based issue trackers for native desktop performance.</p>
+                <h2 class="text-3xl sm:text-4xl font-bold text-white">Simple, transparent pricing</h2>
+                <p class="mt-4 text-gray-400">Get lifetime access to professional developer tooling.</p>
             </div>
 
-            <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                <!-- GitHub Web Card -->
-                <div class="p-8 rounded-2xl bg-dark-800 border border-red-500/20 relative overflow-hidden">
-                    <div class="absolute top-0 right-0 px-4 py-1 bg-red-500/10 text-red-400 text-xs font-mono font-bold rounded-bl-xl border-l border-b border-red-500/20">Legacy Web</div>
-                    <h3 class="text-xl font-bold text-white mb-2">GitHub Web UI</h3>
-                    <p class="text-sm text-gray-400 mb-6">Heavy React bundle, DOM hydration lag, and round-trip network delays.</p>
-                    
-                    <div class="space-y-4 font-mono text-sm">
-                        <div class="flex justify-between items-center py-2 border-b border-gray-700/50">
-                            <span class="text-gray-400">Initial Page Load</span>
-                            <span class="text-red-400 font-bold">1,200 ms</span>
-                        </div>
-                        <div class="flex justify-between items-center py-2 border-b border-gray-700/50">
-                            <span class="text-gray-400">Offline Access</span>
-                            <span class="text-red-400">Not Supported ❌</span>
-                        </div>
-                        <div class="flex justify-between items-center py-2">
-                            <span class="text-gray-400">Keyboard Navigation</span>
-                            <span class="text-gray-400">Basic Shortcuts</span>
-                        </div>
+            <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- IssueFlow CLI -->
+                <div class="p-8 rounded-2xl bg-dark-800 border border-gray-700 flex flex-col justify-between">
+                    <div>
+                        <div class="text-brand-400 font-mono text-xs font-bold uppercase tracking-wider mb-2">CLI Tool</div>
+                        <h3 class="text-xl font-bold text-white mb-2">IssueFlow CLI</h3>
+                        <p class="text-sm text-gray-400 mb-6">Smart developer task & bug manager right from your terminal.</p>
+                        <div class="text-4xl font-extrabold text-white mb-6">$29 <span class="text-sm font-normal text-gray-400">/ one-time</span></div>
+                        <ul class="space-y-3 text-sm text-gray-300 mb-8">
+                            <li><i class="fa-solid fa-check text-brand-400 mr-2"></i> Local SQLite Database</li>
+                            <li><i class="fa-solid fa-check text-brand-400 mr-2"></i> Full Vim Navigation</li>
+                            <li><i class="fa-solid fa-check text-brand-400 mr-2"></i> Instant GitHub Sync</li>
+                        </ul>
                     </div>
+                    <a href="https://whop.com/checkout/plan_xJFKTuXJmsdlP" target="_blank" class="w-full py-3 px-4 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-semibold text-center transition shadow-lg shadow-brand-600/30">
+                        Buy IssueFlow CLI ($29)
+                    </a>
                 </div>
 
-                <!-- IssueFlow Desktop Card -->
-                <div class="p-8 rounded-2xl bg-dark-800 border border-brand-500/40 relative overflow-hidden shadow-xl shadow-brand-500/10">
-                    <div class="absolute top-0 right-0 px-4 py-1 bg-brand-500/10 text-brand-400 text-xs font-mono font-bold rounded-bl-xl border-l border-b border-brand-500/20">Native Desktop</div>
-                    <h3 class="text-xl font-bold text-white mb-2">IssueFlow Desktop</h3>
-                    <p class="text-sm text-gray-400 mb-6">Compiled Rust/Tauri binary with local SQLite cache and zero network dependency.</p>
-                    
-                    <div class="space-y-4 font-mono text-sm">
-                        <div class="flex justify-between items-center py-2 border-b border-gray-700/50">
-                            <span class="text-gray-400">Initial Page Load</span>
-                            <span class="text-emerald-400 font-bold">5.2 ms ⚡</span>
-                        </div>
-                        <div class="flex justify-between items-center py-2 border-b border-gray-700/50">
-                            <span class="text-gray-400">Offline Access</span>
-                            <span class="text-emerald-400 font-bold">100% Offline ✅</span>
-                        </div>
-                        <div class="flex justify-between items-center py-2">
-                            <span class="text-gray-400">Keyboard Navigation</span>
-                            <span class="text-brand-400 font-bold">Full Vim Mode ✅</span>
-                        </div>
+                <!-- IssueFlow Landing Kit -->
+                <div class="p-8 rounded-2xl bg-dark-800 border-2 border-brand-500 relative flex flex-col justify-between shadow-2xl shadow-brand-500/20">
+                    <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 bg-brand-600 text-white text-xs font-mono font-bold rounded-full">POPULAR KIT</div>
+                    <div>
+                        <div class="text-brand-400 font-mono text-xs font-bold uppercase tracking-wider mb-2">Web Template</div>
+                        <h3 class="text-xl font-bold text-white mb-2">IssueFlow Landing</h3>
+                        <p class="text-sm text-gray-400 mb-6">Modern landing page and web portal template for products.</p>
+                        <div class="text-4xl font-extrabold text-white mb-6">$29 <span class="text-sm font-normal text-gray-400">/ one-time</span></div>
+                        <ul class="space-y-3 text-sm text-gray-300 mb-8">
+                            <li><i class="fa-solid fa-check text-brand-400 mr-2"></i> Tailwind CSS v3</li>
+                            <li><i class="fa-solid fa-check text-brand-400 mr-2"></i> Responsive Dark Theme</li>
+                            <li><i class="fa-solid fa-check text-brand-400 mr-2"></i> Whop Integration Ready</li>
+                        </ul>
                     </div>
+                    <a href="https://whop.com/checkout/plan_qS0sInHzNlwyK" target="_blank" class="w-full py-3 px-4 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-semibold text-center transition shadow-lg shadow-brand-600/30">
+                        Buy Landing Kit ($29)
+                    </a>
+                </div>
+
+                <!-- PainScout AI Engine -->
+                <div class="p-8 rounded-2xl bg-dark-800 border border-gray-700 flex flex-col justify-between">
+                    <div>
+                        <div class="text-brand-400 font-mono text-xs font-bold uppercase tracking-wider mb-2">AI Analyzer</div>
+                        <h3 class="text-xl font-bold text-white mb-2">PainScout AI</h3>
+                        <p class="text-sm text-gray-400 mb-6">AI-powered market pain and startup idea analyzer engine.</p>
+                        <div class="text-4xl font-extrabold text-white mb-6">$39 <span class="text-sm font-normal text-gray-400">/ one-time</span></div>
+                        <ul class="space-y-3 text-sm text-gray-300 mb-8">
+                            <li><i class="fa-solid fa-check text-brand-400 mr-2"></i> Social Media Scraping</li>
+                            <li><i class="fa-solid fa-check text-brand-400 mr-2"></i> AI Pain Point Extraction</li>
+                            <li><i class="fa-solid fa-check text-brand-400 mr-2"></i> Automated Idea Validation</li>
+                        </ul>
+                    </div>
+                    <a href="https://whop.com/checkout/plan_EvPvW5JQAOkMJ" target="_blank" class="w-full py-3 px-4 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-semibold text-center transition shadow-lg shadow-brand-600/30">
+                        Buy PainScout AI ($39)
+                    </a>
                 </div>
             </div>
         </div>
@@ -226,7 +232,7 @@
     </section>
 
     <!-- Footer -->
-    <footer id="early-access" class="bg-dark-900 border-t border-gray-800 py-12">
+    <footer class="bg-dark-900 border-t border-gray-800 py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between text-sm text-gray-400">
             <div class="flex items-center space-x-3">
                 <div class="w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center text-white">
@@ -237,7 +243,8 @@
             <div class="mt-4 md:mt-0 flex space-x-6">
                 <a href="#comparison" class="hover:text-white transition">Performance</a>
                 <a href="#features" class="hover:text-white transition">Features</a>
-                <a href="https://github.com" target="_blank" class="hover:text-white transition">GitHub</a>
+                <a href="#pricing" class="hover:text-white transition">Pricing</a>
+                <a href="https://github.com/abdyrahym78-png" target="_blank" class="hover:text-white transition">GitHub</a>
             </div>
             <div class="mt-4 md:mt-0 text-xs text-gray-500 font-mono">
                 &copy; 2026 IssueFlow. Deployed on Vercel.
